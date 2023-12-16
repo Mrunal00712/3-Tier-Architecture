@@ -1,6 +1,6 @@
 # **3-Tier-Architecture**
-'''
-User --> WebApp(Word Press)  --> DataBase(My-SQL)
+**
+User --> WebApp(Word Press)  --> DataBase(My-SQL) **
 
 first we have to launch the mysql database , i'm launching the my sql data base with volume so that if my data base goes down my data will store in the HOST os ,, My-SQL server stores data in /var/lib/mysql
 
