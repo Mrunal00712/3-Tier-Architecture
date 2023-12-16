@@ -1,5 +1,5 @@
 # **3-Tier-Architecture**
-
+'''
 User --> WebApp(Word Press)  --> DataBase(My-SQL)
 
 first we have to launch the mysql database , i'm launching the my sql data base with volume so that if my data base goes down my data will store in the HOST os ,, My-SQL server stores data in /var/lib/mysql
@@ -23,3 +23,4 @@ URL : hostip:8080/wp-admin/setup-config.php
 // HelpFul commands
 #docker inspect (containerID/Name) --> to get the ip adderss of cantainer
 #docker rm -f $(docker ps -a -q)
+'''
